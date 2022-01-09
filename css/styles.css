@@ -1,3 +1,32 @@
 * {
-    height: 100%;
+    height: 100%;       /* to use relative height with all elements */
+}
+
+body {
+    height: 100%;       /* to use relative height with all elements */
+    background-color: gray;
+}
+
+.main {
+    height: 90vh; 
+    outline: 2px solid red;
+}
+
+.footer {
+    height: 10vh;
+    background-color: rgb(48, 48, 48);
+    margin-top: 16px;
+    text-align: center;
+    font-size: 1.5vh;
+}
+
+a:link, i {
+    color: black;
+    padding: 4px;
+}
+
+i:hover {
+    color: gray;
+    transition: 0.4s;
+    cursor: pointer;
 }
