@@ -32,6 +32,21 @@ h1 {
     margin-bottom: 0;
 }
 
+.add {
+    height: 5%;
+    width: 10%;
+    align-self: center;
+    border-radius: 40%;
+    border: 2px solid black;
+}
+
+.add:hover {
+    color: silver;
+    background-color: green;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
 .book-pool {
     height: 90%;
     background-color: rgb(194, 194, 194);
@@ -40,6 +55,18 @@ h1 {
     display: flex;
     flex-flow: row wrap;
     gap: 8px;
+}
+
+.book {
+}
+
+.bookRead {
+}
+
+.bookRemove {
+}
+
+.bookRead, .bookRemove {
 }
 
 .footer {
