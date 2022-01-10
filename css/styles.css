@@ -4,34 +4,47 @@
 
 body {
     height: 100%;       /* to use relative height with all elements */
+    margin: 0;
     background-color: gray;
 }
 
 .main {
     height: 90vh; 
     padding: 8px;
-    outline: 2px solid red;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 12px;
+    /* outline: 2px solid red; */
 }
 
 .header {
-    height: 8vh;
-    outline: 2px solid green;
+    height: 10%;
+    /* outline: 2px solid green; */
+    background-color: rgb(48, 48, 48);
+    padding: 8px;
+    display: flex;
+    justify-content: center;
 }
 
 h1 {
+    color:honeydew;
     margin-top: 0;
     margin-bottom: 0;
 }
 
 .book-pool {
-    height: 80vh;
-    margin-top: 16px;
-    outline: 2px solid yellow;
+    height: 90%;
+    background-color: rgb(194, 194, 194);
+    border: 2px solid black;
+    padding: 4px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 8px;
 }
 
 .footer {
-    outline: 2px solid blue;
-    height: 8vh;
+    /* outline: 2px solid blue; */
+    height: 10vh;
     padding: 8px;
     background-color: rgb(48, 48, 48);
     text-align: center;
